@@ -22,6 +22,7 @@ public class Main {
         System.out.println("Diagonal Sum: " + diagonalSum(matrix));
     }
 }
+// output: Diagonal Sum: 25
 //                                                               2nd way
 public class Main{
     public static void diagonalSum(int matrix[][]){
@@ -39,6 +40,7 @@ public class Main{
         diagonalSum(matrix);
         }
     }
+    // output: Diagonal sum is: 68
     //                                                              3rd way
 public class Main{
     public static int diagonalSum(int matrix[][]){
@@ -60,3 +62,4 @@ public class Main{
         System.out.println("Diagonal sum is: "+diagonalSum(matrix));
         }
     }
+    // output: Diagonal sum is: 25
